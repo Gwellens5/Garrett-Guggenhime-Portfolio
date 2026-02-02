@@ -13,16 +13,16 @@ export function SkillCategoryCard({ category, index }: SkillCategoryProps) {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
-      className="bg-card border border-border rounded-xl p-6"
+      className="bg-slate-100 dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 rounded-xl p-6 shadow-md"
     >
-      <h3 className="text-lg font-bold text-foreground mb-4 pb-2 border-b border-border">
+      <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 pb-3 border-b-2 border-primary/30">
         {category.name}
       </h3>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-3">
         {category.skills.map((skill, i) => (
           <span 
             key={i}
-            className="px-3 py-1.5 bg-secondary/10 text-secondary-foreground text-sm font-medium rounded-md hover:bg-secondary/20 transition-colors cursor-default"
+            className="px-4 py-2 bg-primary/15 text-primary dark:text-primary-foreground dark:bg-primary/30 text-sm font-semibold rounded-lg border border-primary/20 shadow-sm"
           >
             {skill}
           </span>
