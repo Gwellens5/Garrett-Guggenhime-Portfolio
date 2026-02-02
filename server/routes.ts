@@ -130,8 +130,7 @@ async function seedDatabase() {
     honors: [
       "Gazette Best and Brightest Scholarship and Award Recipient",
       "Chickasaw Nation Outstanding Achievement Award in Academics",
-      "Chickasaw Nation Honor Club",
-      "Study Abroad Program Cambridge University, Cambridge, UK"
+      "Chickasaw Nation Honor Club"
     ]
   });
 
