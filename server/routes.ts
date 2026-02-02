@@ -38,8 +38,8 @@ export async function registerRoutes(
 async function seedDatabase() {
   await storage.setProfile({
     name: "Garrett Guggenhime",
-    title: "Student Entrepreneur | Aspiring Management Consultant",
-    summary: "Resourceful and driven student entrepreneur eager to apply a track record of tenacity and creative problem solving to a career in management consulting with a top tier firm. Thrives in fast paced, analytical environments that demand adaptability and initiative. Known for turning ideas into outcomes through persistence, curiosity, and a strategic mindset.",
+    title: "Student Entrepreneur | Aspiring Finance Professional",
+    summary: "Resourceful and driven student entrepreneur eager to apply a track record of tenacity and creative problem solving to a career in finance with a top tier firm. Thrives in fast paced, analytical environments that demand adaptability and initiative. Known for turning ideas into outcomes through persistence, curiosity, and a strategic mindset.",
     email: "Garrettguggenhime27@gmail.com",
     phone: "(719) 217-3500",
     location: "Colorado Springs, CO",
