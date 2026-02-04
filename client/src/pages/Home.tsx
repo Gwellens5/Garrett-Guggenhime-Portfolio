@@ -6,7 +6,7 @@ import { SkillCategoryCard } from "@/components/SkillBadge";
 import { motion } from "framer-motion";
 import { Mail, MapPin, Linkedin, Link as LinkIcon, Download, ExternalLink } from "lucide-react";
 import headshot from "@assets/DSC_0271_1770066342839.jpeg";
-import resumePdf from "@assets/Garrett_Guggenhime_Resume_1770066100984.pdf";
+import resumePdf from "@assets/Garrett_Guggenhime_Resume_1770197368181.pdf";
 
 export default function Home() {
   const { data: profile, isLoading: loadingProfile } = useProfile();
